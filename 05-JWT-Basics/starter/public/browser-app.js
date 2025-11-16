@@ -41,6 +41,7 @@ formDOM.addEventListener('submit', async (e) => {
   }, 2000)
 })
 
+// store the token somewhere in frontend
 btnDOM.addEventListener('click', async () => {
   const token = localStorage.getItem('token')
   try {
